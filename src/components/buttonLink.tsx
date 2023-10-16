@@ -10,9 +10,7 @@ const ButtonLink = (props: Props) => {
   return (
     <div>
         <Link href={props.url}>
-            <a>
-                <button>{props.text}</button>
-            </a>
+            <button>{props.text}</button>
         </Link>
     </div>
   )
