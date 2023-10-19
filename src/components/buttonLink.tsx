@@ -10,7 +10,7 @@ const ButtonLink = (props: Props) => {
   return (
     <div>
         <Link href={props.url}>
-            <button>{props.text}</button>
+            <button className="font-sans font-normal text-slate-200 rounded-lg border-2 border-slate-200 m-3 py-1 px-3.5">{props.text}</button>
         </Link>
     </div>
   )
