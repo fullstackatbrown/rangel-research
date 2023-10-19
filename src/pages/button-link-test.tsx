@@ -4,7 +4,7 @@ import React from "react";
 const ButtonLinkTest = () => {
     return (
         <div>
-            <ButtonLink text="Button Text" url="https://google.com"/>
+            <ButtonLink text="Qualtrics Survey" url="https://brown.co1.qualtrics.com/jfe/form/SV_2seiVuFl1tCmNim"/>
         </div>
     )
 };
