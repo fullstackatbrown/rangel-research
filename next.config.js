@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   exportPathMap: async function() {
     return {
-      "/button-link-test": { page: "/button-link-test" },
+      "/qualtrics-button": { page: "/component-test-pages/qualtrics-button" },
     };
   },
 }
