@@ -29,7 +29,7 @@ const Nav: React.FC<{}> = () => {
     return (
         <nav className={styles.navbar}>
             <div className={styles['logo-container']}>
-                <span>Logo</span>
+                <span>logo</span>
             </div>
             <Links links={links} />
         </nav>
