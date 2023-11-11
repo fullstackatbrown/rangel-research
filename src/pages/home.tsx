@@ -11,14 +11,14 @@ export default function Home() {
     <div className="bg-white">
       <Navbar/>
 
-      <div className=' mt-6 bg-transparent w-full h-72 flex items-center'>
+      <div className='mt-6 bg-transparent w-full h-72 flex items-center px-5'>
 
         <div className='rounded bg-light-brown w-2/3 h-full items-center grid justify-center mr-3'>
-          <h1 className="text-medium-brown text-4xl w-100 bg-transparent">Families and Schools Research Project</h1>
+          <h1 className="text-medium-brown text-6xl w-100 bg-transparent">Families and Schools Research Project</h1>
         </div>
         <div className='rounded bg-light-brown w-1/3 h-full grid items-center justify-center'> 
           <h1 className="text-3xl w-84 bg-transparent -mb-20">Qualtrics Interest Form</h1>
-          <button className="rounded text-white bg-medium-brown bg-slate-400 w-72 flex p-3 text-2xl -mt-20 justify-between">
+          <button className="rounded text-white bg-medium-brown w-72 flex p-3 text-2xl -mt-20 justify-between">
             <h1 className="bg-transparent">Qualtrics Survey</h1>
             <h1 className="bg-transparent">→</h1>
           </button>
