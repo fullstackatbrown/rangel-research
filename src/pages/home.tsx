@@ -1,40 +1,57 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { Lato } from 'next/font/google'
+import Navbar from '../components/navbar';
 
 const inter = Inter({ subsets: ['latin'] })
 const lato = Lato({ subsets: ['latin'], weight: ["400"] })
 
 export default function Home() {
   return (
-    <main className={`w-screen min-h-screen flex-col items-center justify-between p-24 ${lato.className}`}>
-      <div className="bg-black max-w-5xl w-full font-mono text-sm">
-        <p className={
-          `fixed left-0 top-0 flex w-full justify-center 
-           pb-6 pt-8 dark:from-inherit lg:static lg:w-auto ${lato.className}`}>
-        Rangels Research Lab&nbsp;     
-        </p>
-      </div>
+    <div className="bg-white">
+      <Navbar/>
 
-      <div className='bg-slate-400 w-full h-72 items-center'>
+      <div className=' mt-6 bg-transparent w-full h-72 flex items-center'>
 
-        <h1 className="pt-28 bg-transparent flex justify-center text-6xl">Home</h1>
+        <div className='rounded bg-light-brown w-2/3 h-full items-center grid justify-center mr-3'>
+          <h1 className="text-medium-brown text-4xl w-100 bg-transparent">Families and Schools Research Project</h1>
+        </div>
+        <div className='rounded bg-light-brown w-1/3 h-full grid items-center justify-center'> 
+          <h1 className="text-3xl w-84 bg-transparent -mb-20">Qualtrics Interest Form</h1>
+          <button className="rounded text-white bg-medium-brown bg-slate-400 w-72 flex p-3 text-2xl -mt-20 justify-between">
+            <h1 className="bg-transparent">Qualtrics Survey</h1>
+            <h1 className="bg-transparent">→</h1>
+          </button>
+        </div>
         
       </div> 
 
-      <div className='grid w-full h-72 flex justify-center items-center p-24'>
+      <div className='bg-slate-100 my-6 w-full h-72 flex items-center'>
 
-        <h1 className="text-2xl w-64">Qualtrics Interest Form</h1>
-        <h1 className="mt-2 bg-slate-400 w-64 flex justify-center text-2xl">Qualtrics Survey</h1>
+        <div className='rounded bg-transparent w-1/3 h-full items-center grid justify-center mr-3'>
+        <h1 className="text-3xl w-84 bg-transparent -mb-20 text-slate-800">The Project</h1>
+          <button className="outline outline-2 outline-medium-brown rounded text-white bg-transparent bg-slate-400 w-72 flex p-3 text-2xl -mt-20 justify-between">
+            <h1 className="bg-transparent text-medium-brown">About Project</h1>
+            <h1 className="bg-transparent text-medium-brown">→</h1>
+          </button>
+        </div>
+
+        <div className='rounded bg-transparent w-2/3 h-full grid items-center justify-center'> 
+        <h1 className="text-slate-800 text-xl w-100 bg-transparent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Hendrerit gravida rutrum quisque non tellus orci ac. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Egestas dui id ornare arcu odio ut sem. Posuere ac ut consequat semper viverra nam. Rhoncus dolor purus non enim. Ultricies mi eget mauris pharetra et ultrices neque. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Tristique senectus et netus et malesuada fames ac turpis egestas. Magna eget est lorem ipsum dolor sit amet consectetur adipiscing. Lectus sit amet est placerat in egestas erat imperdiet.</h1>
+        </div>
         
       </div> 
 
-      <div className='bg-slate-400 w-full h-72 flex p-10 flex items-center'>
+      <div className='bg-transparent w-full h-100 flex p-10 flex items-center'>
 
-        <h1 className="bg-transparent flex text-4xl">Information</h1>
-        <p className="ml-10 bg-transparent"> Lorem ipsum dolor sit amet. Et velit facilis sed debitis deserunt et expedita nihil ut voluptate dicta qui eligendi omnis. Rem nostrum necessitatibus et cupiditate similique non pariatur eius hic nobis aspernatur ut aspernatur atque id consectetur assumenda ex numquam ratione. </p>
+        <h1 className="bg-light-brown rounded p-8 flex text-4xl w-1/3 flex justify-center text-medium-brown ">Our Research Values</h1>
+        <div className="ml-20 bg-transparent w-2/3 grid">
+        <h1 className="bg-light-brown text-medium-brown rounded p-8 flex text-3xl flex ">1.</h1>
+        <h1 className="mt-5 text-medium-brown bg-light-brown rounded p-8 flex text-3xl flex">2.</h1>
+        <h1 className="mt-5 text-medium-brown bg-light-brown rounded p-8 flex text-3xl flex">3.</h1>
+        </div>
         
       </div> 
-    </main>
+    </div>
   )
 }
