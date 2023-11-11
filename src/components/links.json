@@ -1,0 +1,20 @@
+{
+    "links": [
+        {
+            "label": "Home",
+            "href": "/home"
+        },
+        {
+            "label": "About Project",
+            "href": "/about"
+        },
+        {
+            "label": "Research Team",
+            "href": "/team"
+        },
+        {
+            "label": "Announcements",
+            "href": "/announcements"
+        }
+    ]
+}
