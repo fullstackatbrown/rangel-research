@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { Lato } from 'next/font/google'
 import Navbar from '../components/navbar';
+import QualtricsButton from '@/components/qualtricsButton';
 
 const inter = Inter({ subsets: ['latin'] })
 const lato = Lato({ subsets: ['latin'], weight: ["400"] })
@@ -18,10 +19,9 @@ export default function Home() {
         </div>
         <div className='rounded bg-light-brown w-1/3 h-full grid items-center justify-center'> 
           <h1 className="text-3xl w-84 bg-transparent -mb-20">Qualtrics Interest Form</h1>
-          <button className="rounded text-white bg-medium-brown w-72 flex p-3 text-2xl -mt-20 justify-between">
-            <h1 className="bg-transparent">Qualtrics Survey</h1>
-            <h1 className="bg-transparent">→</h1>
-          </button>
+          <div className="bg-transparent flex justify-center -translate-y-10">
+            <QualtricsButton color1='medium-brown' color2='light-brown'/>
+          </div>
         </div>
         
       </div> 
