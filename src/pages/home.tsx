@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div className='rounded bg-light-brown w-1/3 h-full grid items-center justify-center'> 
           <h1 className="text-3xl w-84 bg-transparent -mb-20">Qualtrics Interest Form</h1>
-          <div className="bg-transparent flex justify-center -translate-y-10">
+          <div className="bg-transparent flex justify-center -translate-y-8">
             <QualtricsButton color1='medium-brown' color2='light-brown'/>
           </div>
         </div>
