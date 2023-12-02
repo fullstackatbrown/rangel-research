@@ -7,10 +7,18 @@ interface TeamMemberProps {
 
 const TeamMember: React.FC<TeamMemberProps> = ({ member } ) => {
     return (
-        <div className="flex flex-col items-center mb-8">
-            <img src={`../images/${member.photo}`} alt={member.name} className ="w-32 h-32 rounded-full mb-4"/>
-            <h3 className="text-lg font-semibold">{member.name}</h3>
-            <p className="text-gray-600">{member.bio}</p>
+        <div className="flex items-center mb-8 bg-white p-4">
+            <img src={`/photos/${member.photo}`} alt={member.name} className ="mr-8 bg-white"/>
+            <div>
+                <h3 className="text-2xl text-medium-brown font-semibold bg-white">{member.name}</h3>
+                {member.name === 'David Enrique Rangel, Ph.D' && member.esp === 0 && (
+                    <p className = "text-yellow-700 text-lg bg-white">Assistant Professor of Education - Brown University</p>
+                )}
+                {member.name === 'David Enrique Rangel, Ph.D' && member.esp === 1 && (
+                    <p className = "text-yellow-700 text-lg bg-white">Profesor Asistente de Educación – la Universidad de Brown</p>
+                )}
+                <p className="text-gray-600 bg-white text-sm">{member.bio}</p>
+            </div>
         </div>
     );
 };
