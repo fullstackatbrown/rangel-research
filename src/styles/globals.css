@@ -19,9 +19,22 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+@font-face {
+  font-family: 'Julius Sans One';
+  src: url('JuliusSansOne-Regular.woff2') format('woff2'),
+      url('JuliusSansOne-Regular.woff') format('woff'),
+      url('JuliusSansOne-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 *{
   background-color: rgb(240, 240, 240);
+}
+.title {
+  font-family: Julius Sans One;
 }
 
 
