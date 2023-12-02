@@ -9,7 +9,7 @@ const LangSwitchBtn = ({ language, switchLang}) => {
     if (language == "EN") {
       enColor = "white"
       enBackColor = "#A24D2B"
-      SpaColor = "black"
+      spaColor = "black"
       spaBackColor = ""
     } else {
       enColor = "black"

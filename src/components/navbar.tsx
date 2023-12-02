@@ -33,7 +33,7 @@ const Nav: React.FC<{}> = () => {
                 <span>logo</span>
             </div>
             <Links links={links} />
-            <LangSwitchBtn language={"eng"} switchLang={()=>{}}></LangSwitchBtn>
+            <LangSwitchBtn language={"EN"} switchLang={()=>{}}></LangSwitchBtn>
         </nav>
     )
 }
