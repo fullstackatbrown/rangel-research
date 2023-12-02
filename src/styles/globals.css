@@ -1,9 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lato&display=swap');
 
 
 :root {
+  --font-lato: ${lato.style.fontFamily};
+  --font-julius: ${julius.style.fontFamily};
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
