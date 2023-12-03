@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Nav.module.css';
 import * as data from './links.json';
+import LangSwitchBtn from "./buttonLanguage"
 const linksString = JSON.stringify(data);
 const links = JSON.parse(linksString).links;
 
@@ -32,6 +33,7 @@ const Nav: React.FC<{}> = () => {
                 <span>logo</span>
             </div>
             <Links links={links} />
+            <LangSwitchBtn language={"EN"} switchLang={()=>{}}></LangSwitchBtn>
         </nav>
     )
 }

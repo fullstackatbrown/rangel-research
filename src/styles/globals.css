@@ -1,9 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lato&display=swap');
 
 
 :root {
+  --font-lato: ${lato.style.fontFamily};
+  --font-julius: ${julius.style.fontFamily};
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -16,9 +19,22 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+@font-face {
+  font-family: 'Julius Sans One';
+  src: url('JuliusSansOne-Regular.woff2') format('woff2'),
+      url('JuliusSansOne-Regular.woff') format('woff'),
+      url('JuliusSansOne-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 *{
   background-color: rgb(240, 240, 240);
+}
+.title {
+  font-family: Julius Sans One;
 }
 
 
