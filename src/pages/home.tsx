@@ -1,3 +1,4 @@
+import ButtonLink from '@/components/buttonLink';
 import Navbar from '../components/navbar';
 import QualtricsButton from '@/components/qualtricsButton';
 
@@ -9,15 +10,15 @@ export default function Home() {
     <div className="bg-white">
       <Navbar/>
 
-      <div className='mt-6 bg-transparent w-full h-72 flex items-center px-5'>
+      <div className='mt-6 bg-transparent w-full h-80 flex items-center px-5'>
 
-        <div className='rounded bg-brown1 w-2/3 h-full items-center flex grid justify-center mr-3'>
-          <h1 className="text-brown5 text-6xl w-auto m-auto bg-transparent font-julius title font-bold text-center">Families and Schools Research Project</h1>
-        </div>
-        <div className='rounded bg-brown2 w-1/3 h-full grid items-center justify-center'> 
-          <h1 className="text-3xl text-gray-purple w-84 bg-transparent -mb-20 font-bold">Qualtrics Interest Form</h1>
-          <div className="bg-transparent flex justify-center -translate-y-8">
-            <QualtricsButton/>
+        <div className='rounded bg-gradient-to-r from-brown1 to-brown2 w-full h-full items-center flex justify-center mr-3'>
+          <h1 className="text-brown5 text-6xl w-1/2 m-auto bg-transparent font-julius title font-bold text-center">Families and Schools Research Project</h1>
+          <div className='rounded bg-brown3 w-1/3 h-4/5 grid items-center justify-center mx-7'> 
+            <h1 className="text-4xl text-gray-purple w-84 bg-transparent -mb-20 font-bold pb-5">Qualtrics Interest Form</h1>
+            <div className="bg-transparent flex justify-center -translate-y-8 transform scale-125">
+              <QualtricsButton/>
+            </div>
           </div>
         </div>
         
@@ -27,10 +28,11 @@ export default function Home() {
 
         <div className='rounded bg-transparent w-1/3 h-full items-center grid justify-center mr-3'>
         <h1 className="text-3xl w-84 bg-transparent -mb-20 text-gray-purple font-bold">The Project</h1>
-          <button className="outline outline-brown5 rounded text-white bg-transparent bg-slate-400 w-72 flex p-3 text-2xl -mt-20 justify-between">
+          <ButtonLink text="About Project" url="/about"/>
+          {/* <button className="outline outline-brown5 rounded text-white bg-transparent bg-slate-400 w-72 flex p-3 text-2xl -mt-20 justify-between">
             <h1 className="bg-transparent text-brown5">About Project</h1>
             <h1 className="bg-transparent text-brown5">→</h1>
-          </button>
+          </button> */}
         </div>
 
         <div className='rounded bg-transparent w-2/3 h-full grid items-center justify-center'> 
