@@ -1,6 +1,7 @@
 import QualtricsButtonESP from "@/components/qualtricsButtonESP";
 import NavigationBarESP from "@/components/navigationBarESP";
 import ButtonLink from "@/components/buttonLink";
+import FooterESP from "@/components/footerESP";
 
 export default function Home() {
   return (
@@ -139,6 +140,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <FooterESP />
     </div>
   );
 }

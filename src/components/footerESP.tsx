@@ -40,7 +40,7 @@ const FooterESP = () => {
             href="/about"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 px-5 bg-transparent"
           >
-            Acerca del Proyecto
+            Sobre Proyecto
           </a>
           <a
             href="/teamBios"
@@ -50,7 +50,7 @@ const FooterESP = () => {
           </a>
         </div>
         <span className="text-gray-purple text-sm bg-transparent text-center">
-          Sitio web diseñado y desarrollado por FSAB.
+          Sitio Web Diseñado y Desarrollado por FSAB.
         </span>
       </div>
     </footer>

@@ -2,6 +2,7 @@ import React from 'react';
 import TeamMember from '../components/TeamMember';
 import Member from '../interfaces/interfaces';
 import NavigationBarESP from '@/components/navigationBarESP';
+import FooterESP from '@/components/footerESP';
 
 const team: Member[] = [
     {
@@ -63,6 +64,7 @@ const TeamBioESP: React.FC = () => {
             <TeamMember key={index} member={member} />
           ))}
         </div>
+        <FooterESP/>
      </div>
     );
   };

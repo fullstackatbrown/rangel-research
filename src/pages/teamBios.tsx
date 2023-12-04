@@ -2,6 +2,7 @@ import React from 'react';
 import TeamMember from '../components/TeamMember';
 import Member from '../interfaces/interfaces';
 import NavigationBar from '@/components/navigationBar';
+import Footer from '@/components/footer';
 
 const team: Member[] = [
     {
@@ -63,6 +64,7 @@ const TeamBioPage: React.FC = () => {
             <TeamMember key={index} member={member} />
           ))}
         </div>
+        <Footer/>
      </div>
     );
   };
