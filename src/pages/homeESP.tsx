@@ -12,7 +12,7 @@ export default function Home() {
 
       <div className='mt-6 bg-transparent w-full h-72 flex items-center px-5'>
 
-        <div className='rounded bg-brown1 w-2/3 h-full items-center flex grid justify-center mr-3'>
+        <div className='rounded bg-brown1 w-2/3 h-full items-center flex justify-center mr-3'>
           <h1 className="text-brown5 text-6xl w-auto m-auto bg-transparent font-julius title font-bold text-center">Estudio de Familias y Escuelas</h1>
         </div>
         <div className='rounded bg-brown2 w-1/3 h-full grid items-center justify-center'> 
