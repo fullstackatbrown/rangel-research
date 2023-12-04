@@ -35,11 +35,11 @@ export default function Home() {
         </div>
 
         <div className="rounded bg-transparent w-2/3 h-full grid items-center justify-center">
-          <h1 className="text-slate-800 text-xl w-100 bg-transparent">
-            Welcome to the Families and Schools Project, where we delve into how
+          <h1 className="text-slate-800 text-xl w-100 bg-transparent mr-10">
+            Welcome to the <text className="font-semibold">Families and Schools Project</text>, where we delve into how
             parents and educators work to build relationships between and
-            amongst each other. Our goal is to uncover how the bonds between
-            parents and their children&apos;s schools shape the landscape of
+            amongst each other. Our goal is to uncover how the <text className="font-semibold">bonds</text> between
+            parents and their children&apos;s schools <text className="font-semibold">shape</text> the landscape of
             educational success.{" "}
           </h1>
         </div>

@@ -34,11 +34,11 @@ export default function Home() {
         </div>
 
         <div className="rounded bg-transparent w-2/3 h-full grid items-center justify-center">
-          <h1 className="text-slate-800 text-xl w-100 bg-transparent">
-            Bienvenido al Estudio de Familias y Escuelas, donde escarbamos en
+          <h1 className="text-slate-800 text-xl w-100 bg-transparent mr-10">
+            Bienvenido al <text className="font-semibold">Estudio de Familias y Escuelas</text>, donde escarbamos en
             cómo los padres y educadores trabajan para cultivar relaciones entre
-            ellos. Nuestra meta es descubrir cómo los vínculos entre los padres
-            y las escuelas de sus hijos dan forma al panorama del éxito
+            ellos. Nuestra meta es descubrir cómo los <text className="font-semibold">vínculos</text> entre los padres
+            y las escuelas de sus hijos <text className="font-semibold">dan forma</text> al panorama del éxito
             educativo.
           </h1>
         </div>
