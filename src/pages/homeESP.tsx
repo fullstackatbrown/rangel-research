@@ -1,4 +1,4 @@
-import Navbar from '../components/navbar';
+import NavigationBar from '@/components/navigationBar';
 import QualtricsButton from '@/components/qualtricsButton';
 
 
@@ -8,7 +8,7 @@ export default function Home() {
   return (
     
     <div className="bg-white">
-      <Navbar/>
+      <NavigationBar/>
       
 
       <div className='mt-6 bg-transparent w-full h-72 flex items-center px-5'>

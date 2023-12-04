@@ -1,7 +1,7 @@
 import React from 'react';
 import TeamMember from '../components/TeamMember';
 import Member from '../interfaces/interfaces';
-import Navbar from '../components/navbar';
+import NavigationBar from '@/components/navigationBar';
 
 const team: Member[] = [
     {
@@ -35,7 +35,7 @@ const pc: Member[] = [{
 const TeamBioESP: React.FC = () => {
     return (
       <div className="container mx-auto my-8">
-        <Navbar />
+        <NavigationBar/>
         <div className="mb-8" style={{ marginBottom: '48px' }}/>
         <h1 className="text-4xl text-medium-brown text-center font-semibold mb-8">Nuestro Equipo</h1>
         <div className="bg-white p-8 mb-8">

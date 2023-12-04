@@ -1,11 +1,11 @@
 import ButtonLink from "@/components/buttonLink";
-import TailwindNavBar from "@/components/tailwindNavBar";
+import NavigationBar from "@/components/navigationBar";
 import QualtricsButton from "@/components/qualtricsButton";
 
 export default function Home() {
   return (
     <div className="bg-white">
-      <TailwindNavBar />
+      <NavigationBar />
 
       <div className="mt-6 bg-transparent w-full h-80 flex items-center px-5">
         <div className="rounded bg-gradient-to-r from-brown1 to-brown2 w-full h-full items-center flex justify-center mr-3">
