@@ -1,23 +1,40 @@
-import React from 'react';
-import { useRouter } from 'next/router';
+import React from "react";
+import { useState } from "react";
+import { useRouter } from "next/router";
+
+interface LangSwitchButtonProps {
+  initialLanguage: string;
+}
 
 interface LanguageMapping {
   [key: string]: string;
 }
 
-const LangSwitchBtn = () => {
+const LangSwitchBtn = (props: LangSwitchButtonProps) => {
   const router = useRouter();
+  const [language, setLanguage] = useState(props.initialLanguage);
 
-  const toggleToEnglish = () => {
+  const redirectToTranslatedPage = () => {
     // Extract the pathname from the current route
     const currentPath: string = router.pathname;
 
     // Define a mapping for Spanish to English pages
-    const languageMapping: LanguageMapping = {
-      '/homeESP': '/home',
-      '/aboutESP': '/about',
-      '/teamBiosESP': '/teamBios',
+    const spanishToEnglishMapping: LanguageMapping = {
+      "/homeESP": "/home",
+      "/aboutESP": "/about",
+      "/teamBiosESP": "/teamBios",
     };
+
+    // Define a mapping for English to Spanish pages
+    const englishToSpanishMapping: LanguageMapping = {
+      "/": "/homeESP",
+      "/home": "/homeESP",
+      "/about": "/aboutESP",
+      "/teamBios": "/teamBiosESP",
+    };
+
+    // Determine the appropriate mapping based on the current language
+    const languageMapping = language === "English" ? englishToSpanishMapping : spanishToEnglishMapping;
 
     // Find the corresponding translated page in the mapping
     const translatedPath = languageMapping[currentPath];
@@ -25,31 +42,24 @@ const LangSwitchBtn = () => {
     // Redirect to the translated page
     router.push({
       pathname: translatedPath,
+    });
+  };
+
+  const toggleToEnglish = () => {
+    setLanguage(() => {
+      redirectToTranslatedPage();
+      return "English";
     });
   };
 
   const toggleToSpanish = () => {
-    // Extract the pathname from the current route
-    const currentPath: string = router.pathname;
-
-    // Define a mapping for English to Spanish pages
-    const languageMapping: LanguageMapping = {
-      '/': '/homeESP',
-      '/home': '/homeESP',
-      '/about': '/aboutESP',
-      '/teamBios': '/teamBiosESP',
-    };
-
-    // Find the corresponding translated page in the mapping
-    const translatedPath = languageMapping[currentPath];
-
-    // Redirect to the translated page
-    router.push({
-      pathname: translatedPath,
+    setLanguage(() => {
+      redirectToTranslatedPage();
+      return "Spanish";
     });
   };
 
-  return (
+  return language === "English" ? (
     <div>
       <div className="grid grid-cols-2 bg-transparent">
         <button
@@ -60,6 +70,23 @@ const LangSwitchBtn = () => {
         </button>
         <button
           className={`text-gray-purple bg-white w-20 h-9 border-2 border-gray-300 rounded-r flex items-center justify-center`}
+          onClick={toggleToSpanish}
+        >
+          Español
+        </button>
+      </div>
+    </div>
+  ) : (
+    <div>
+      <div className="grid grid-cols-2 bg-transparent">
+        <button
+          className={`text-gray-purple bg-white w-20 h-9 border-2 border-gray-300 rounded-l flex items-center justify-center`}
+          onClick={toggleToEnglish}
+        >
+          English
+        </button>
+        <button
+          className={`text-white bg-brown5 w-20 h-9 border-2 border-gray-300 rounded-r flex items-center justify-center`}
           onClick={toggleToSpanish}
         >
           Español
