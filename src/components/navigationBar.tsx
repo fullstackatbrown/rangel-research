@@ -36,7 +36,7 @@ const NavigationBar = () => {
           </Link>
         </div>
         <div className="flex space-x-3 items-center justify-between bg-transparent">
-          <LangSwitchBtn language={"EN"} switchLang={"Spa"} />
+          <LangSwitchBtn/>
           <Link
             href="https://brown.co1.qualtrics.com/jfe/form/SV_2seiVuFl1tCmNim"
             className="inline-block text-sm font-semibold px-4 py-2.5 leading-none bg-transparent border border-gray-purple rounded text-gray-purple hover:text-brown1 hover:bg-brown5 hover:border-transparent mt-4 lg:mt-0 ease-out duration-100"
