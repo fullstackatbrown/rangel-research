@@ -22,6 +22,7 @@ const Footer = () => {
           <a className="font-medium text-blue-600 hover:underline dark:text-blue-500 bg-transparent">
             david_rangel@brown.edu
           </a>
+          .
         </span>
         <span className="text-gray-purple text-sm bg-transparent">
           © 2023 Rangel Research Team. All Rights Reserved.
