@@ -1,6 +1,5 @@
-import NavigationBar from '@/components/navigationBar';
 import QualtricsButton from '@/components/qualtricsButton';
-
+import NavigationBarESP  from '@/components/navigationBarESP';
 
 
 export default function Home() {
@@ -8,7 +7,7 @@ export default function Home() {
   return (
     
     <div className="bg-white">
-      <NavigationBar/>
+      <NavigationBarESP/>
       
 
       <div className='mt-6 bg-transparent w-full h-72 flex items-center px-5'>
