@@ -25,7 +25,7 @@ const NavigationBarESP = () => {
             href="aboutESP"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 bg-transparent"
           >
-            Acerca del Proyecto
+            Sobre Proyecto
           </a>
           <a
             href="teamBiosESP"
