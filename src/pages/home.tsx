@@ -17,7 +17,7 @@ export default function Home() {
             <h1 className="text-4xl text-gray-purple w-84 bg-transparent -mb-20 font-bold pb-5">
               Qualtrics Interest Form
             </h1>
-            <div className="bg-transparent flex justify-center -translate-y-8 transform scale-125">
+            <div className="bg-transparent flex justify-center -translate-y-8 scale-125">
               <QualtricsButton />
             </div>
           </div>
@@ -29,11 +29,9 @@ export default function Home() {
           <h1 className="text-3xl w-84 bg-transparent -mb-20 text-gray-purple font-bold">
             The Project
           </h1>
-          <ButtonLink text="About Project" url="/about" />
-          {/* <button className="outline outline-brown5 rounded text-white bg-transparent bg-slate-400 w-72 flex p-3 text-2xl -mt-20 justify-between">
-            <h1 className="bg-transparent text-brown5">About Project</h1>
-            <h1 className="bg-transparent text-brown5">→</h1>
-          </button> */}
+          <div className="-translate-y-10">
+          <ButtonLink text="About Project" url="/about"/>
+          </div>
         </div>
 
         <div className="rounded bg-transparent w-2/3 h-full grid items-center justify-center">
