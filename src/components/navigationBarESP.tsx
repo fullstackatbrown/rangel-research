@@ -16,19 +16,19 @@ const NavigationBarESP = () => {
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto bg-transparent ">
         <div className="text-md font-semibold flex space-x-10 justify-end lg:flex-grow pr-5 bg-transparent">
           <a
-            href="homeESP"
+            href="/homeESP"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 bg-transparent"
           >
             Inicio
           </a>
           <a
-            href="aboutESP"
+            href="/aboutESP"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 bg-transparent"
           >
             Sobre Proyecto
           </a>
           <a
-            href="teamBiosESP"
+            href="/teamBiosESP"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 bg-transparent"
           >
             Equipo de Investigación

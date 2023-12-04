@@ -16,19 +16,19 @@ const NavigationBar = () => {
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto bg-transparent ">
         <div className="text-md font-semibold flex space-x-10 justify-end lg:flex-grow pr-5 bg-transparent">
           <a
-            href="home"
+            href="/home"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 bg-transparent"
           >
             Home
           </a>
           <a
-            href="about"
+            href="/about"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 bg-transparent"
           >
             About Project
           </a>
           <a
-            href="teamBios"
+            href="/teamBios"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 bg-transparent"
           >
             Research Team
