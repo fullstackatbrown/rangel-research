@@ -38,14 +38,14 @@ const LangSwitchBtn = () => {
       className="focus:outline-none"
       onClick={toggleLanguage}
     >
-      <div className="flex items-center justify-center bg-transparent">
+      <div className="grid grid-cols-2 bg-transparent">
         <div
-          className={`text-gray-purple bg-white w-14 h-9 border-2 border-gray-300 rounded-l`}
+          className={`text-gray-purple bg-white w-14 h-9 border-2 border-gray-300 rounded-l flex items-center justify-center`}
         >
           EN
         </div>
         <div
-          className={`text-white bg-brown5 w-14 h-9 border-2 border-gray-300 rounded-r`}
+          className={`text-white bg-brown5 w-14 h-9 border-2 border-gray-300 rounded-r flex items-center justify-center`}
         >
           Spa
         </div>
