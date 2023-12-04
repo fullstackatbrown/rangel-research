@@ -63,13 +63,13 @@ const LangSwitchBtn = (props: LangSwitchButtonProps) => {
     <div>
       <div className="grid grid-cols-2 bg-transparent">
         <button
-          className={`text-white bg-brown5 w-20 h-9 border-2 border-gray-300 rounded-l flex items-center justify-center`}
+          className={`text-white bg-brown5 w-20 h-9 border-2 border-gray-300 rounded-l flex items-center justify-center hover:bg-brown5/75 transition ease-out duration-100`}
           onClick={toggleToEnglish}
         >
           English
         </button>
         <button
-          className={`text-gray-purple bg-white w-20 h-9 border-2 border-gray-300 rounded-r flex items-center justify-center`}
+          className={`text-gray-purple bg-white w-20 h-9 border-2 border-gray-300 rounded-r flex items-center justify-center hover:bg-gray-100 transition ease-out duration-100`}
           onClick={toggleToSpanish}
         >
           Español
@@ -80,13 +80,13 @@ const LangSwitchBtn = (props: LangSwitchButtonProps) => {
     <div>
       <div className="grid grid-cols-2 bg-transparent">
         <button
-          className={`text-gray-purple bg-white w-20 h-9 border-2 border-gray-300 rounded-l flex items-center justify-center`}
+          className={`text-gray-purple bg-white w-20 h-9 border-2 border-gray-300 rounded-l flex items-center justify-center hover:bg-gray-100 transition ease-out duration-100`}
           onClick={toggleToEnglish}
         >
           English
         </button>
         <button
-          className={`text-white bg-brown5 w-20 h-9 border-2 border-gray-300 rounded-r flex items-center justify-center`}
+          className={`text-white bg-brown5 w-20 h-9 border-2 border-gray-300 rounded-r flex items-center justify-center hover:bg-brown5/75 transition ease-out duration-100`}
           onClick={toggleToSpanish}
         >
           Español
