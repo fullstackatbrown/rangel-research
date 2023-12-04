@@ -1,7 +1,7 @@
 import ButtonLink from "@/components/buttonLink";
 import React from "react";
 
-const QualtricsButton = () => {
+const QualtricsButtonESP = () => {
   return (
     <ButtonLink
       text="Encuesta Qualtrics"
@@ -10,4 +10,4 @@ const QualtricsButton = () => {
   );
 };
 
-export default QualtricsButton;
+export default QualtricsButtonESP;
