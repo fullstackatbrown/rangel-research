@@ -45,8 +45,8 @@ export default function Home() {
       </div>
 
       <div className="bg-light-gray w-full h-72 flex items-center justify-center">
-        <div className="rounded bg-transparent outline outline-brown5 w-full p-5 mx-16 mb-16">
-          <p className="text-slate-800 text-xl w-100 bg-transparent">
+        <div className="rounded bg-transparent border-4 border-brown5 w-full p-5 mx-16 mb-16">
+          <p className="text-slate-800 text-xl w-100 bg-transparent mb-5">
             En el fondo de nuestra investigación se encuentran las voces de
             padres y educadores. A través de entrevistas esclarecedoras con los
             padres, obtenemos una comprensión más profunda de su paso por el
@@ -81,7 +81,7 @@ export default function Home() {
               </h1>
             </div>
 
-            <div className="my-5 m-auto bg-white bg-opacity-75 w-48 px-10 outline outline-brown5 h-12 pt-2 flex justify-center rounded">
+            <div className="my-5 m-auto bg-white bg-opacity-75 w-48 px-10 border-2 border-brown5 h-12 pt-2 flex justify-center rounded">
               <h1 className="text-xl text-gray-purple w-84 bg-transparent -mb-20 font-bold">
                 Transparencia
               </h1>
@@ -102,7 +102,7 @@ export default function Home() {
               </h1>
             </div>
 
-            <div className="bg-opacity-75 my-5 m-auto bg-white w-auto px-10 outline outline-brown5 h-12 pt-2 flex justify-center rounded">
+            <div className="bg-opacity-75 my-5 m-auto bg-white w-auto px-10 border-2 border-brown5 h-12 pt-2 flex justify-center rounded">
               <h1 className="text-xl text-gray-purple bg-transparent -mb-20 font-bold">
                 Seguridad y Privacidad
               </h1>
@@ -125,7 +125,7 @@ export default function Home() {
               </h1>
             </div>
 
-            <div className="bg-opacity-75 my-5 m-auto bg-white w-auto px-10 outline outline-brown5 h-12 pt-2 flex justify-center rounded">
+            <div className="bg-opacity-75 my-5 m-auto bg-white w-auto px-10 border-2 border-brown5 h-12 pt-2 flex justify-center rounded">
               <h1 className="text-xl text-gray-purple w-84 bg-transparent -mb-20 font-bold">
                 Catalizar el Cambio Positivo
               </h1>
