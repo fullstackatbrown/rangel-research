@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const FooterESP = () => {
@@ -14,13 +15,13 @@ const FooterESP = () => {
         </div>
         <span className="text-gray-purple text-md font-semibold bg-transparent">
           Contáctenos en{" "}
-          <a className="font-medium text-blue-600 hover:underline dark:text-blue-500 bg-transparent">
+          <Link href="mailto:familiesandschools@brown.edu" className="font-medium text-blue-600 hover:underline dark:text-blue-500 bg-transparent">
             familiesandschools@brown.edu
-          </a>{" "}
+          </Link>{" "}
           o{" "}
-          <a className="font-medium text-blue-600 hover:underline dark:text-blue-500 bg-transparent">
+          <Link href="mailto:david_rangel@brown.edu" className="font-medium text-blue-600 hover:underline dark:text-blue-500 bg-transparent">
             david_rangel@brown.edu
-          </a>
+          </Link>
           .
         </span>
         <span className="text-gray-purple text-sm bg-transparent">
@@ -30,24 +31,24 @@ const FooterESP = () => {
 
       <div className="bg-transparent grid grid-cols-1 space-y-4">
         <div className="text-md divide-x-2 divide-brown2 bg-transparent">
-          <a
+          <Link
             href="/home"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 px-5 bg-transparent"
           >
             Inicio
-          </a>
-          <a
+          </Link>
+          <Link
             href="/about"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 px-5 bg-transparent"
           >
             Sobre Proyecto
-          </a>
-          <a
+          </Link>
+          <Link
             href="/teamBios"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 px-5 bg-transparent"
           >
             Equipo de Investigación
-          </a>
+          </Link>
         </div>
         <span className="text-gray-purple text-sm bg-transparent text-center">
           Sitio Web Diseñado y Desarrollado por FSAB.

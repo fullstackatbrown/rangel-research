@@ -1,4 +1,5 @@
 import { Span } from "next/dist/trace";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -15,13 +16,13 @@ const Footer = () => {
         </div>
         <span className="text-gray-purple text-md font-semibold bg-transparent">
           Contact us at{" "}
-          <a className="font-medium text-blue-600 hover:underline dark:text-blue-500 bg-transparent">
+          <Link href="mailto:familiesandschools@brown.edu" className="font-medium text-blue-600 hover:underline dark:text-blue-500 bg-transparent">
             familiesandschools@brown.edu
-          </a>{" "}
+          </Link>{" "}
           or{" "}
-          <a className="font-medium text-blue-600 hover:underline dark:text-blue-500 bg-transparent">
+          <Link href="mailto:david_rangel@brown.edu" className="font-medium text-blue-600 hover:underline dark:text-blue-500 bg-transparent">
             david_rangel@brown.edu
-          </a>
+          </Link>
           .
         </span>
         <span className="text-gray-purple text-sm bg-transparent">
@@ -31,24 +32,24 @@ const Footer = () => {
 
       <div className="bg-transparent grid grid-cols-1 space-y-4">
         <div className="text-md divide-x-2 divide-brown2 bg-transparent">
-          <a
+          <Link
             href="/home"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 px-5 bg-transparent"
           >
             Home
-          </a>
-          <a
+          </Link>
+          <Link
             href="/about"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 px-5 bg-transparent"
           >
             About Project
-          </a>
-          <a
+          </Link>
+          <Link
             href="/teamBios"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 px-5 bg-transparent"
           >
             Research Team
-          </a>
+          </Link>
         </div>
         <span className="text-gray-purple text-sm bg-transparent text-center">
           Website Designed & Developed by FSAB.
