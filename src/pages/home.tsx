@@ -1,4 +1,5 @@
 import ButtonLink from "@/components/buttonLink";
+import Footer from "@/components/footer";
 import NavigationBar from "@/components/navigationBar";
 import QualtricsButton from "@/components/qualtricsButton";
 
@@ -139,6 +140,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }
