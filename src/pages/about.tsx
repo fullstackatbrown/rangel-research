@@ -61,12 +61,32 @@ export default function Home() {
       <div className="my-10 inline-block bg-transparent w-full h-full justify-center">
 
         <div className="flex bg-transparent h-96 w-full">
-          <div className="mx-2 bg-brown1 w-full h-full inline-block rounded"></div>
+          <div className="mx-2 bg-brown1 w-full h-full inline-block rounded">
+
+          <img
+          src="/photos/about1.jpeg"
+          className="h-full object-cover rounded"
+          alt="..." />
+
+          </div>
 
           <div className="mx-2 bg-brown2 w-full h-full inline-block justify-center rounded">
+
+          <img
+          src="/photos/about2.png"
+          className="h-full object-cover rounded"
+          alt="..." />
+
+
           </div>
 
           <div className="mx-2 bg-brown3 w-full h-full inline-block justify-center rounded">
+
+          <img
+          src="/photos/about3.jpeg"
+          className="h-full object-cover rounded"
+          alt="..." />
+
           </div>
         </div>
 
