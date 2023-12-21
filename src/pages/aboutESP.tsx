@@ -1,9 +1,9 @@
 import ButtonLink from "@/components/buttonLink";
-import Footer from "@/components/footer";
-import NavigationBar from "@/components/navigationBar";
+import Footer from "@/components/footerESP";
+import NavigationBar from "@/components/navigationBarESP";
 import QualtricsButton from "@/components/qualtricsButton";
-import ParentsSurveyButton from "@/components/parentsSurveyBtn";
-import PrincipalsAndTeachersSurveyButton from "@/components/principalsTeachersSurveyBtn";
+import ParentsSurveyButton from "@/components/parentsSurveyBtnESP";
+import PrincipalsAndTeachersSurveyButton from "@/components/principalsTeachersSurveyBtnESP";
 
 export default function Home() {
   return (
@@ -17,42 +17,40 @@ export default function Home() {
       </h1>
 
       <p className="bg-white mt-5">
-      How do the relationships between families and schools contribute to developing effective educational communities? 
-      What practices can be implemented to strengthen collaboration and understanding between parents and educators, enhancing the overall educational environment?
+      ¿Cómo contribuyen las relaciones entre familias y escuelas al desarrollo de comunidades educativas efectivas? 
+      ¿Qué prácticas se pueden implementar para fortalecer la colaboración y el entendimiento entre padres y educadores, mejorando el entorno educativo general?
       </p>
 
       <hr className="h-0.5 w-60 my-6 bg-white border-0 dark:bg-brown5"></hr>
 
       <p className="bg-white mt-3">
-      These are questions that the Families and Schools research study seeks to 
-      address through the perspectives of parents, teachers, and principals 
-      within San Antonio, Texas. Integrating these diverse perspectives allows 
-      us to more holistically explore how parents and educators navigate the 
-      school community, ultimately illuminating how these relationships may be 
-      strengthened. 
+      El Estudio de Familias y Escuelas busca abordar estas preguntas a través de las perspectivas de padres, 
+      maestros y directores de San Antonio, Texas. La integración de estas diversas perspectivas nos permite 
+      explorar de manera más holística cómo los padres y educadores navegan en la comunidad escolar y, en el 
+      fondo, ilumina cómo se pueden fortalecer estas relaciones.
+
+      </p>
+
+      <p className="bg-white mt-3"> Se invita
+      <b className="bg-white">a los padres</b> a compartir sus experiencias con las escuelas de sus hijos y 
+      reflexiones sobre su experiencia con estas comunidades escolares.
+      </p>
+
+      <p className="bg-white mt-3"> Se invita
+      <b className="bg-white">a los maestros</b> a compartir experiencias que hayan tenido con los 
+      padres de sus alumnos y reflexiones sobre cómo involucrar a las familias dentro de la estructura de la escuela.
+      </p>
+
+      <p className="bg-white mt-3"> Se invita
+      <b className="bg-white">a los directores</b> a compartir experiencias 
+      que hayan tenido en la construcción y liderazgo de una comunidad escolar 
+      que incluya a los padres y maestros de los estudiantes y reflexiones sobre 
+      el papel de las relaciones familia-escuela en apoyar a los estudiantes.
       </p>
 
       <p className="bg-white mt-3">
-      <b className="bg-white">Parents</b> are invited to share their experiences with their children’s 
-      schools and reflections on their experience with these school communities.
-      </p>
-
-      <p className="bg-white mt-3">
-      <b className="bg-white">Teachers</b> are invited to share experiences they’ve had with their students’ 
-      parents and reflections on their abilities to engage with families within 
-      the structure of the school.
-      </p>
-
-      <p className="bg-white mt-3">
-      <b className="bg-white">Principals</b> are invited to share experiences they’ve had in building and 
-      leading a school community that includes students’ parents and teachers 
-      and reflections on the role of family-school relationships in supporting 
-      student outcomes.
-      </p>
-
-      <p className="bg-white mt-3">
-      This study is approved by Brown’s Human Research Protection Program 
-      (STUDY262) and funded by a grant from The Spencer Foundation. 
+      Este estudio está aprobado por el Programa de Protección de la Investigación 
+      Humana de Brown (STUDY262) y financiado por una subvención de La Fundación Spencer. 
       </p>
         
     </div>
@@ -94,16 +92,16 @@ export default function Home() {
         <div className="flex-col bg-white w-11/12 h-full m-auto mt-10 flex block justify-center items-center py-10 inline-block">
 
             <h1 className="text-4xl text-brown5 w-84 bg-transparent font-semibold">
-                    Take Our Surveys
+            Complete la encuesta y si es seleccionado reciba $40.
             </h1> 
             
 
             <p className="bg-white mt-5 mx-36">
-            Parents and educators interested in participating may complete a brief 
-            demographic survey. This survey helps us ensure that we hear from parents 
-            and educators of various backgrounds and school types. At the end of 
-            the survey, you will be prompted to provide your contact information 
-            for interview scheduling purposes only.
+            ¡Queremos saber por ustedes, padres y educadores de la escuela primaria de San 
+            Antonio! Complete la encuesta para tener la oportunidad de compartir sus
+             experiencias. Un miembro del equipo de investigación se comunicará con 
+             los seleccionados para una entrevista para programar una entrevista de 
+             60 minutos.
             </p>
 
             <div className="bg-transparent flex w-full justify-center">
