@@ -36,11 +36,9 @@ export default function Home() {
 
         <div className="rounded bg-transparent w-2/3 h-full grid items-center justify-center">
           <h1 className="text-slate-800 text-xl w-100 bg-transparent mr-10">
-            Welcome to the <text className="font-semibold">Families and Schools Project</text>, where we delve into how
-            parents and educators work to build relationships between and
-            amongst each other. Our goal is to uncover how the <text className="font-semibold">bonds</text> between
-            parents and their children&apos;s schools <text className="font-semibold">shape</text> the landscape of
-            educational success.{" "}
+            Welcome to the <text className="font-semibold">Families and Schools Project</text>, a research study exploring the collaborative relationships between 
+            parents and educators in shaping students’ educational success. Our goal is to uncover how the <text className="font-semibold">bonds</text> between 
+            parents and their children&apos;s schools <text className="font-semibold">shape</text> the landscape of educational success.{" "}
           </h1>
         </div>
       </div>
@@ -48,23 +46,22 @@ export default function Home() {
       <div className="bg-light-gray w-full h-72 flex items-center justify-center">
         <div className="rounded bg-transparent border-4 border-brown5 w-full p-5 mx-16 mb-16">
           <p className="text-slate-800 text-xl w-100 bg-transparent mb-5">
-            At the heart of our research are the voices of parents and
-            educators. Through insightful interviews with parents, we gain a
-            deeper understanding of their journey through the educational
-            system. Similarly, conversations with school faculty and
-            administrators shed light on how educators view and interact with
-            parental involvement.
+            The voices of parents and educators are at the heart of our research. By conducting comprehensive interviews with parents, we aim to gain nuanced insights into their experiences and perceptions within the educational system. Additionally, interviews with school faculty and administrators provide us with diverse perspectives on the role and impact of parental involvement.
           </p>
           <p className="text-slate-800 text-xl w-100 bg-transparent">
-            In exploring these dynamics, ultimately, our project aims to
-            identify effective strategies that enhance students&apos; learning
-            experiences, understand what practices effectively support
-            students&apos; experiences and performance at school, and develop
-            innovative approaches to strengthen parent-school relationships,
-            ultimately enriching the educational journey for all.
+            In exploring these dynamics, our project ultimately seeks to identify effective strategies that enhance student learning experiences and understand the practices that support academic and personal growth. We are committed to developing innovative, inclusive approaches that enrich the educational journey for every student.
           </p>
         </div>
       </div>
+      <div className="my-10 inline-block bg-transparent w-full h-full justify-center">
+  <div className="flex items-center justify-center bg-transparent w-full h-full">
+    <img
+      src="/photos/home1.png"
+      className="object-cover h-80 w-full max-w-screen-xl"
+      alt="Home Image"
+    />
+  </div>
+</div>
 
       <div className="my-10 inline-block bg-transparent w-full h-full justify-center">
         <div className="m-auto bg-brown1 w-96 h-24 pt-7 flex justify-center rounded">
@@ -88,10 +85,7 @@ export default function Home() {
             </div>
 
             <h1 className="text-brown5 w-84 bg-transparent text-center">
-              We value open and clear communication with the parents, educators,
-              and schools we partner with. Participants will be in direct
-              contact with research team members and choose how much information
-              to share.
+              We value open and clear communication with the parents, educators, and schools we partner with. Participants will be in direct contact with research team members and choose how much information to share. 
             </h1>
           </div>
 
@@ -109,11 +103,7 @@ export default function Home() {
             </div>
 
             <h1 className="text-brown5 w-84 bg-transparent text-center">
-              We value protecting participant information and maintaining
-              confidentiality. All personally identifiable information will be
-              deleted and excluded from any data analysis or publication. Data
-              is stored in a secure, cloud-based server that meets the security
-              requirements of the Brown University Institutional Review Board.
+              We value protecting participant information and maintaining privacy. We take several steps to ensure participants' confidentiality in adherence to Brown University’s Institutional Review Board.
             </h1>
           </div>
 
@@ -131,9 +121,7 @@ export default function Home() {
             </div>
 
             <h1 className="text-brown5 w-84 bg-transparent text-center">
-              We value our partnerships with participants as foundations for
-              studying and building school communities that better serve
-              students, families, and educators.
+              We value our partnerships with participants as foundations for studying and building school communities that better serve students, families, and educators.
             </h1>
           </div>
         </div>

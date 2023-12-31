@@ -36,11 +36,7 @@ export default function Home() {
 
         <div className="rounded bg-transparent w-2/3 h-full grid items-center justify-center">
           <h1 className="text-slate-800 text-xl w-100 bg-transparent mr-10">
-            Bienvenido al <text className="font-semibold">Estudio de Familias y Escuelas</text>, donde escarbamos en
-            cómo los padres y educadores trabajan para cultivar relaciones entre
-            ellos. Nuestra meta es descubrir cómo los <text className="font-semibold">vínculos</text> entre los padres
-            y las escuelas de sus hijos <text className="font-semibold">dan forma</text> al panorama del éxito
-            educativo.
+            Bienvenido al <text className="font-semibold">Estudio de Familias y Escuelas</text>, una investigación que explora las relaciones de colaboración entre los padres y educadores para dar forma al éxito educativo de los estudiantes. Nuestra meta es descubrir cómo los <text className="font-semibold">vínculos</text> entre los padres y las escuelas de sus hijos <text className="font-semibold">dan forma</text> al panorama del éxito educativo.
           </h1>
         </div>
       </div>
@@ -48,21 +44,10 @@ export default function Home() {
       <div className="bg-light-gray w-full h-72 flex items-center justify-center">
         <div className="rounded bg-transparent border-4 border-brown5 w-full p-5 mx-16 mb-16">
           <p className="text-slate-800 text-xl w-100 bg-transparent mb-5">
-            En el fondo de nuestra investigación se encuentran las voces de
-            padres y educadores. A través de entrevistas esclarecedoras con los
-            padres, obtenemos una comprensión más profunda de su paso por el
-            sistema educativo. De manera similar, las conversaciones con la
-            facultad y los administradores de la escuela arrojan luz sobre cómo
-            los educadores ven e interactúan con la participación de los padres.
+            En el fondo de nuestra investigación se encuentran las voces de padres y educadores. A través de entrevistas esclarecedoras con los padres, obtenemos una comprensión más profunda de su paso por el sistema educativo. Además, las entrevistas con la facultad y los administradores de la escuela nos ofrecen diversas perspectivas sobre el papel y el impacto de la participación de los padres.
           </p>
           <p className="text-slate-800 text-xl w-100 bg-transparent">
-            Al explorar estas dinámicas, en definitiva, nuestro proyecto aspira
-            a identificar estrategias efectivas que mejoren las experiencias de
-            aprendizaje de los estudiantes, entender prácticas que apoyan
-            efectivamente las experiencias y el desempeño de los estudiantes en
-            la escuela, y desarrollar enfoques innovadores para fortalecer las
-            relaciones entre padres y escuelas, enriqueciendo el paso educativo
-            para todos.
+            Al explorar estas dinámicas, en definitiva, nuestro proyecto aspira a identificar estrategias efectivas que mejoren las experiencias de aprendizaje de los estudiantes y entender prácticas que apoyan el desarrollo académico y personal de los estudiantes. Estamos comprometidos a desarrollar enfoqueinnovadores e inclusivos que enriquezcan el paso educativo de cada estudiante.
           </p>
         </div>
       </div>
@@ -89,10 +74,7 @@ export default function Home() {
             </div>
 
             <h1 className="text-brown5 w-84 bg-transparent text-center">
-              Valoramos la comunicación abierta y clara con los padres,
-              educadores y escuelas con las que nos asociamos. Los participantes
-              estarán en contacto directo con los miembros del equipo de
-              investigación y elegirán cuánta información compartirán.
+              Valoramos la comunicación abierta y clara con los padres, educadores y escuelas con las que nos asociamos. Los participantes estarán en contacto directo con los miembros del equipo de investigación y elegirán cuánta información compartirán.
             </h1>
           </div>
 
@@ -110,12 +92,7 @@ export default function Home() {
             </div>
 
             <h1 className="text-brown5 w-84 bg-transparent text-center">
-              Valoramos proteger la información de los participantes y mantener
-              la confidencialidad. Toda la información de identificación
-              personal será eliminada y excluida de cualquier análisis o
-              publicación de datos. Los datos se almacenan en un servidor seguro
-              basado en la nube que cumple con los requisitos de seguridad de la
-              Junta de Revisión Institucional de la Universidad de Brown.
+              Valoramos proteger la información de los participantes y mantener la confidencialidad. Tomamos varias medidas para garantizar la confidencialidad de los participantes de conformidad con la Junta de Revisión Institucional de la Universidad de Brown.
             </h1>
           </div>
 
@@ -133,9 +110,7 @@ export default function Home() {
             </div>
 
             <h1 className="text-brown5 w-84 bg-transparent text-center">
-              Valoramos nuestras colaboraciones con los participantes como base
-              para estudiar y cultivar comunidades escolares que sirvan mejor a
-              los estudiantes, las familias y los educadores.
+              Valoramos nuestras colaboraciones con los participantes como base para estudiar y cultivar comunidades escolares que sirvan mejor a los estudiantes, las familias y los educadores.
             </h1>
           </div>
         </div>

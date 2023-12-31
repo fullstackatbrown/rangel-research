@@ -6,10 +6,7 @@ const NavigationBar = () => {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-white p-6 drop-shadow-md">
       <div className="flex items-center flex-shrink-0 text-gray-purple mr-6 bg-transparent">
-        <div className="bg-brown5/50 rounded-lg h-16 w-16 flex items-center justify-center">
-          <div className="bg-brown5 rounded-md h-12 w-12"></div>
-        </div>
-        <span className="font-bold text-2xl tracking-tight pl-5 bg-transparent">
+        <span className="font-bold text-2xl tracking-tight bg-transparent">
           Rangel Research Team
         </span>
       </div>

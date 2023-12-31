@@ -29,7 +29,7 @@ const pi: Member[] = [{
 const pc: Member[] = [{
   name: 'Anna Ryu (ella)',
   photo: 'anna.jpeg',
-  bio: 'Anna es estudiante de tercer año de Albany, NY, y estudia Educación y Química en la Universidad de Brown. Sus intereses en educación incluyen la enseñanza de STEM en el nivel de escuela secundaria de manera más equitativa y empática. Comenzó a trabajar con el Dr. Rangel en la primavera de 2023 y apoya el trabajo organizativo y logístico del equipo. Más allá de los intereses académicos, le gusta trabajar con estudiantes, pasar tiempo con la familia y tocar el oboe.', 
+  bio: 'Anna es estudiante de tercer año de Albany, NY, y estudia Educación y Química en la Universidad de Brown. Sus intereses en educación incluyen la enseñanza de STEM en el nivel de escuela secundaria de manera más equitativa y empática. Comenzó a trabajar con el Dr. Rangel en la primavera de 2023 y apoya el trabajo organizativo y logístico del equipo. Más allá de los intereses académicos, le gusta trabajar con estudiantes, pasar tiempo con la familia y tocar el oboe.',
   esp: 1
 }]
 
@@ -38,9 +38,9 @@ const TeamBioESP: React.FC = () => {
       <div className="container mx-auto my-8">
         <NavigationBarESP/>
         <div className="mb-8" style={{ marginBottom: '48px' }}/>
-        <h1 className="text-4xl text-medium-brown text-center font-semibold mb-8">Nuestro Equipo</h1>
+        <h1 className="text-4xl text-medium-brown text-center font-semibold mb-8 text-brown5">Nuestro Equipo</h1>
         <div className="bg-white p-8 mb-8">
-        <h2 className="text-3xl font-semibold mb-6 bg-white">Investigador Principal</h2>
+        <h2 className="text-3xl font-semibold mb-6 bg-white text-gray-purple">Investigador Principal</h2>
         {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> */}
           {pi.map((member, index) => (
             <TeamMember key={index} member={member} />
@@ -50,7 +50,7 @@ const TeamBioESP: React.FC = () => {
           <hr className="border-t border-orange-700 mb-8" />
           <div className="mb-8" style={{ marginBottom: '48px' }}/>
           <div className="bg-white p-8 mb-8">
-        <h2 className="text-3xl font-semibold mb-6 bg-white">Asistentes de Investigación</h2>
+        <h2 className="text-3xl font-semibold mb-6 bg-white text-gray-purple">Asistentes de Investigación</h2>
           {team.map((member, index) => (
             <TeamMember key={index} member={member} />
           ))}
@@ -59,11 +59,12 @@ const TeamBioESP: React.FC = () => {
           <hr className="border-t border-orange-700 mb-8" />
           <div className="mb-8" style={{ marginBottom: '48px' }}/>
         <div className="bg-white p-8 mb-8">
-        <h2 className="text-3xl font-semibold mb-6 bg-white">Asistente de Dirección</h2>
+        <h2 className="text-3xl font-semibold mb-6 bg-white text-gray-purple">Asistente de Dirección</h2>
         {pc.map((member, index) => (
             <TeamMember key={index} member={member} />
           ))}
         </div>
+        
         <FooterESP/>
      </div>
     );

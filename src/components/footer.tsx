@@ -7,10 +7,7 @@ const Footer = () => {
     <footer className="flex items-center justify-between flex-wrap bg-white p-6 border-t border-brown5">
       <div className="bg-transparent grid grid-cols-1">
         <div className="flex items-center flex-shrink-0 text-gray-purple mr-6 bg-transparent pb-2">
-          <div className="bg-gray-300 rounded-lg h-12 w-12 flex items-center justify-center">
-            <div className="bg-gray-400 rounded-md h-8 w-8"></div>
-          </div>
-          <span className="font-bold text-2xl tracking-tight pl-5 bg-transparent">
+          <span className="font-bold text-2xl tracking-tight bg-transparent">
             Rangel Research Team
           </span>
         </div>
