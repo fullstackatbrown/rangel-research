@@ -3,6 +3,7 @@ import TeamMember from '../components/TeamMember';
 import Member from '../interfaces/interfaces';
 import NavigationBarESP from '@/components/navigationBarESP';
 import FooterESP from '@/components/footerESP';
+import Link from 'next/link';
 
 const team: Member[] = [
     {
@@ -64,7 +65,18 @@ const TeamBioESP: React.FC = () => {
             <TeamMember key={index} member={member} />
           ))}
         </div>
-        
+        <div className="bg-white p-8 mb-8">
+          <h1 className=" text-2xl text-gray-purple w-84 bg-transparent font-semibold">
+            Contacte con nosotros </h1>
+              <div className="mb-8" style={{ marginBottom: '10px' }}/>
+
+              <p className=" text-gray-purple w-84 bg-transparent">Si tiene alguna pregunta o desea ponerse en contacto con un miembro del equipo de investigación, envíenos un correo electrónico a <Link href="mailto:familiesandschools@brown.edu" className="font-medium text-blue-600 hover:underline dark:text-blue-500 bg-transparent">
+              familiesandschools@brown.edu
+              </Link>.
+              Para comunicarse con el investigador principal del estudio, David Rangel, envíe un correo electrónico a  <Link href="mailto:david_rangel@brown.edu" className="font-medium text-blue-600 hover:underline dark:text-blue-500 bg-transparent">
+              david_rangel@brown.edu
+              </Link>.</p>
+              </div>
         <FooterESP/>
      </div>
     );
