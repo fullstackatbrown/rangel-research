@@ -1,7 +1,5 @@
-import ButtonLink from "@/components/buttonLink";
 import Footer from "@/components/footer";
 import NavigationBar from "@/components/navigationBar";
-import QualtricsButton from "@/components/qualtricsButton";
 import ParentsSurveyButton from "@/components/parentsSurveyBtn";
 import PrincipalsAndTeachersSurveyButton from "@/components/principalsTeachersSurveyBtn";
 
@@ -13,7 +11,7 @@ export default function Home() {
       <div className="flex-col bg-white w-11/12 h-full m-auto mt-7 flex block justify-center items-center py-10 px-36 inline-block">
 
       <h1 className="text-4xl text-brown5 w-84 bg-transparent font-semibold">
-              Our Project
+              About Project
       </h1>
 
       <p className="bg-white mt-5">
@@ -33,25 +31,25 @@ export default function Home() {
       </p>
 
       <p className="bg-white mt-3">
-      <b className="bg-white">Parents</b> are invited to share their experiences with their children’s 
+      <b className="bg-white">Parents</b> are invited to share their experiences with their children&apos;s 
       schools and reflections on their experience with these school communities.
       </p>
 
       <p className="bg-white mt-3">
-      <b className="bg-white">Teachers</b> are invited to share experiences they’ve had with their students’ 
+      <b className="bg-white">Teachers</b> are invited to share experiences they&apos;ve had with their students&apos; 
       parents and reflections on their abilities to engage with families within 
       the structure of the school.
       </p>
 
       <p className="bg-white mt-3">
-      <b className="bg-white">Principals</b> are invited to share experiences they’ve had in building and 
-      leading a school community that includes students’ parents and teachers 
+      <b className="bg-white">Principals</b> are invited to share experiences they&apos;ve had in building and 
+      leading a school community that includes students&apos; parents and teachers 
       and reflections on the role of family-school relationships in supporting 
       student outcomes.
       </p>
 
       <p className="bg-white mt-3">
-      This study is approved by Brown’s Human Research Protection Program 
+      This study is approved by Brown&apos;s Human Research Protection Program 
       (STUDY262) and funded by a grant from The Spencer Foundation. 
       </p>
         
