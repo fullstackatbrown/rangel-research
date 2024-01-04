@@ -51,6 +51,15 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <div className="my-10 inline-block bg-transparent w-full h-full justify-center">
+      <div className="flex items-center justify-center bg-transparent w-full">
+  <img
+    src="/photos/home1.png"
+    className="h-25"
+    alt="Home Image"
+  />
+</div>
+</div>
 
       <div className="my-10 inline-block bg-transparent w-full h-full justify-center">
         <div className="m-auto bg-brown1 w-96 h-24 pt-7 flex justify-center rounded">

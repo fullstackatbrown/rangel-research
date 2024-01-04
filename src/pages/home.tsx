@@ -54,13 +54,13 @@ export default function Home() {
         </div>
       </div>
       <div className="my-10 inline-block bg-transparent w-full h-full justify-center">
-  <div className="flex items-center justify-center bg-transparent w-full h-full">
-    <img
-      src="/photos/home1.png"
-      className="object-cover h-80 w-full max-w-screen-xl"
-      alt="Home Image"
-    />
-  </div>
+      <div className="flex items-center justify-center bg-transparent w-full">
+  <img
+    src="/photos/home1.png"
+    className="h-25"
+    alt="Home Image"
+  />
+</div>
 </div>
 
       <div className="my-10 inline-block bg-transparent w-full h-full justify-center">

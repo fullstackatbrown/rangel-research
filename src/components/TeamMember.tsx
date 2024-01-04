@@ -10,7 +10,7 @@ const TeamMember: React.FC<TeamMemberProps> = ({ member } ) => {
         <div className="flex items-center mb-8 bg-white p-4">
             <img src={`/photos/${member.photo}`} alt={member.name} className ="mr-8 bg-white"/>
             <div>
-                <h3 className="text-2xl text-medium-brown font-semibold bg-white">{member.name}</h3>
+                <h3 className="text-2xl text-brown5 font-semibold bg-white">{member.name}</h3>
                 {member.name === 'David Enrique Rangel, Ph.D' && member.esp === 0 && (
                     <p className = "text-yellow-700 text-lg bg-white">Assistant Professor of Education - Brown University</p>
                 )}

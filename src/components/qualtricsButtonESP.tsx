@@ -5,7 +5,7 @@ const QualtricsButtonESP = () => {
   return (
     <ButtonLink
       text="Encuesta Qualtrics"
-      url="https://brown.co1.qualtrics.com/jfe/form/SV_2seiVuFl1tCmNim"
+      url="/aboutESP#survey-block"
     />
   );
 };

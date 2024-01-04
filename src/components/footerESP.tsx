@@ -29,19 +29,19 @@ const FooterESP = () => {
       <div className="bg-transparent grid grid-cols-1 space-y-4">
         <div className="text-md divide-x-2 divide-brown2 bg-transparent">
           <Link
-            href="/home"
+            href="/homeESP"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 px-5 bg-transparent"
           >
             Inicio
           </Link>
           <Link
-            href="/about"
+            href="/aboutESP"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 px-5 bg-transparent"
           >
             Sobre Proyecto
           </Link>
           <Link
-            href="/teamBios"
+            href="/teamBiosESP"
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-purple hover:text-brown5 px-5 bg-transparent"
           >
             Equipo de Investigación

@@ -4,6 +4,7 @@ import Link from "next/link";
 type Props = {
     text: string;
     url: string;
+    onClick?: () => void;
 };
 
 const ButtonLink = (props: Props) => {
